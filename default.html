@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -112,7 +113,7 @@
 
 <div id="id03" class="modal" >
 
-    <form class="modal-content animate" action="webpages/patient_login.php" method="post">
+    <form class="modal-content animate" action="webpages/verify_patient.php" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="media/patient_icon.png" alt="Avatar" class="avatar">
@@ -148,7 +149,7 @@
 
 <div id="id01" class="modal" >
 
-    <form class="modal-content animate" action="webpages/admin_login.php" method="post">
+    <form class="modal-content animate" action="webpages/verify_admin.php" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="media/admin_icon.png" alt="Avatar" class="avatar">
@@ -195,7 +196,7 @@
 
 <div id="id02" class="modal" >
 
-    <form class="modal-content animate" action="webpages/doctor_login.php" method="post">
+    <form class="modal-content animate" action="webpages/verify_doctor.php" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             <img src="media/doctor_icon.png" alt="Avatar" class="avatar">
@@ -211,7 +212,7 @@
             <br>
             <br>
             <button class="w3-round-xxlarge w3-hover-yellow w3-left w3-green" style="width: 200px;height: 40px" type="submit">Login</button>
-            <button type="button" class="w3-right w3-round-xxlarge w3-hover-yellow w3-green" style="width: 200px;height: 40px" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" class="w3-right  w3-round-xxlarge w3-hover-yellow w3-green" style="width: 200px;height: 40px" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
 
 
         </div>
@@ -245,14 +246,14 @@
     <img src="media/mainpage.jpg" height=400 alt="image not found" width="100%">
 </div>
 <div class="w3-margin w3-center">
-<!--    <a href="webpages\patient_login.php"><button class="w3-button w3-blue w3-round-xxlarge w3-hover-green">PATIENT's LOGIN</button>-->
+    <!--    <a href="webpages\patient_login.php"><button class="w3-button w3-blue w3-round-xxlarge w3-hover-green">PATIENT's LOGIN</button>-->
     <button class="w3-button w3-blue w3-round-xxlarge w3-hover-green" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">PATIENT's  LOGIN</button>
     <a href="webpages\docter_login.php" style="display: none"><button class="w3-button w3-blue w3-round-xxlarge w3-hover-green">DOCTER's LOGIN</button></a>
     <button class="w3-button w3-blue w3-round-xxlarge w3-hover-green" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">DOCTOR's LOGIN</button>
     <button class="w3-button w3-blue w3-round-xxlarge w3-hover-green" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">ADMIN LOGIN</button>
 </div>
 <div align="center">
-<a id="submitlink" href="webpages/acknowledge_submit.php"><button class="w3-button w3-hover-green w3-round-xxlarge w3-block w3-teal" style="width: 50%"> Contact Us</button></a>
+    <a id="submitlink" href="webpages/acknowledge_query_submit.php"><button class="w3-button w3-hover-green w3-round-xxlarge w3-block w3-teal" style="width: 50%"> Contact Us</button></a>
 </div>
 
 </body>
